@@ -60,8 +60,52 @@ The project is structured into three primary modules to maintain a clean **Separ
 * **Maven 3.x**
 * **PostgreSQL**
 
-### Local Setup
-1. **Clone the Repo:**
-   ```bash
-   git clone [https://github.com/faizal08/GLAMGAZE.git](https://github.com/faizal08/GLAMGAZE.git)
-   cd GLAMGAZE
+
+## Installation
+
+To set up GLAMGAZE locally, follow these steps:
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/yourusername/GLAMGAZE.git
+  
+```
+
+2. Navigate to the project directory:
+```bash
+cd GLAMGAZE
+
+````
+3. Install the required dependencies:
+ ```bash
+ ./mvnw install
+
+```
+4. Configure your application.properties file with your database credentials:
+```bash
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/glamgaze_db
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+```
+5. Run the application:
+```bash
+./mvnw spring-boot:run
+```
+
+## Usage
+
+1. Open your web browser and navigate to [http://localhost:8080](http://localhost:8080).
+2. Create an account or log in to access the store.
+3. Browse products, add items to your cart or wishlist, and proceed to checkout.
+
+## Contact
+
+For any inquiries or feedback, feel free to reach out:
+
+- **Email:** [reachfaizal08@gmail.com](reachfaizal08@gmail.com)
+- **GitHub:** [faizal08](https://github.com/ivinmanuel)
+
+
+
+
