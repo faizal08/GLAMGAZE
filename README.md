@@ -71,7 +71,7 @@ To set up GLAMGAZE locally, follow these steps:
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/yourusername/GLAMGAZE.git
+   git clone https://github.com/faizal08/GLAMGAZE.git
   
 ```
 
