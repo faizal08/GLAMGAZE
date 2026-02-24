@@ -109,7 +109,7 @@ spring.datasource.password=your_password
 For any inquiries or feedback, feel free to reach out:
 
 - **Email:** [reachfaizal08@gmail.com](reachfaizal08@gmail.com)
-- **GitHub:** [faizal08](https://github.com/ivinmanuel)
+- **GitHub:** [faizal08](https://github.com/faizal08)
 
 
 
