@@ -18,6 +18,10 @@
 
 ---
 
+## 📸 App Preview
+
+![Storefront Screenshot](glamgazescreenshot.png)
+
 ## 🏗️ Architecture Design
 The project is structured into three primary modules to maintain a clean **Separation of Concerns**:
 
