@@ -84,7 +84,7 @@ cd GLAMGAZE
 4. Configure your application.properties file with your database credentials:
 ```bash
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/glamgaze_db
+spring.datasource.url=jdbc:postgresql://localhost:5432/glamgazedb2
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 ```
@@ -95,7 +95,8 @@ spring.datasource.password=your_password
 
 ## Usage
 
-1. Open your web browser and navigate to [http://localhost:8080](http://localhost:8080).
+1. Open your web browser and navigate to [http://localhost:8021/glamgaze](http://localhost:8021/glamgaze) for customer side
+2. navigate to [http://localhost:8020/admin](http://localhost:8020/admin) for admin side
 2. Create an account or log in to access the store.
 3. Browse products, add items to your cart or wishlist, and proceed to checkout.
 
