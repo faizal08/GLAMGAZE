@@ -1,3 +1,8 @@
-*.html linguist-detectable=false
+# Ignore styling and frontend files from language statistics
+*.scss linguist-detectable=false
 *.css linguist-detectable=false
+*.html linguist-detectable=false
 *.js linguist-detectable=false
+
+# Optional: If you have vendored/library files, ignore those too
+/src/main/resources/static/**/* linguist-vendored
